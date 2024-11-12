@@ -8,11 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Document_Tools</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <p class="logo"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="38" height="38" rx="8" fill="#FF6E30" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -23,18 +23,16 @@
                     fill="white" />
             </svg></p>
         <p class="name">antools.</p>
-        <nav>
-            <ul class="list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories
-                        <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 0.75L6 5.25L10.5 0.75" stroke="white" stroke-opacity="0.55" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg></a></li>
-                <li><a href="#">My Collections</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories
+                    <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 0.75L6 5.25L10.5 0.75" stroke="white" stroke-opacity="0.55" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a></li>
+            <li><a href="#">My Collections</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
         <p class="login">Login</p>
         <p class="signup">Sign Up</p>
     </header>
@@ -44,10 +42,11 @@
             <img src="/pics/Illustration.png" alt="Фон" class="back">
             <h1>Awesome tools for Designer & Developer<span>.</span></h1>
 
-            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-        </div>
-        <div class="bigger-rectangle">
-            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <p class="text">Antool is a web collection of information on paid or free Design and Development tools</p>
+
+            <div class="big_rectangle">find more than 430+ tools...</div>
+            <svg class="search_sign" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
                     stroke="white" stroke-opacity="0.38" stroke-width="2" stroke-linecap="round"
@@ -55,16 +54,16 @@
                 <path d="M21 20.9999L16.65 16.6499" stroke="white" stroke-opacity="0.38" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <svg width="2" height="16" viewBox="0 0 2 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <svg class="line_thin" width="2" height="16" viewBox="0 0 2 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <line x1="0.93396" y1="0.75" x2="0.933959" y2="15.25" stroke="#837A93" stroke-width="1.5"
                     stroke-linecap="round" />
             </svg>
-            <p>find more than 430+ tools...</p>
-            <div class="smaller-recangle">
-                <p>Search</p>
-            </div>
+
+            <div class="small-rectangle">Search</div>
         </div>
-        <svg width="190" height="58" viewBox="0 0 190 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="media" width="190" height="58" viewBox="0 0 190 58" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="66" width="58" height="58" rx="8" fill="#1E252B" />
             <path
                 d="M94.9985 22.0654C93.159 22.0654 91.3948 22.7962 90.094 24.0969C88.7933 25.3977 88.0625 27.1619 88.0625 29.0014C88.0625 30.841 88.7933 32.6052 90.094 33.9059C91.3948 35.2067 93.159 35.9374 94.9985 35.9374C96.838 35.9374 98.6022 35.2067 99.903 33.9059C101.204 32.6052 101.935 30.841 101.935 29.0014C101.935 27.1619 101.204 25.3977 99.903 24.0969C98.6022 22.7962 96.838 22.0654 94.9985 22.0654ZM94.9985 33.5059C93.8034 33.5059 92.6573 33.0312 91.8123 32.1862C90.9672 31.3411 90.4925 30.195 90.4925 28.9999C90.4925 27.8049 90.9672 26.6587 91.8123 25.8137C92.6573 24.9687 93.8034 24.4939 94.9985 24.4939C96.1936 24.4939 97.3397 24.9687 98.1847 25.8137C99.0298 26.6587 99.5045 27.8049 99.5045 28.9999C99.5045 30.195 99.0298 31.3411 98.1847 32.1862C97.3397 33.0312 96.1936 33.5059 94.9985 33.5059Z"
@@ -88,10 +87,13 @@
 
         <div class="block2">
             <h1>Most Popular Tools</h1>
-            <span>Tools for the best Designers and Developers most popularly used in the world</span>
+            <div class="mini-tools">Tools for the best Designers and Developers<br> most popularly used in the world
+            </div>
+
 
             <div class="Figma">
-                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="figma-logo" width="64" height="64" viewBox="0 0 64 64" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.78">
                         <path
                             d="M42.6667 42.6667C48.5577 42.6667 53.3333 37.8911 53.3333 32C53.3333 26.109 48.5577 21.3334 42.6667 21.3334C36.7756 21.3334 32 26.109 32 32C32 37.8911 36.7756 42.6667 42.6667 42.6667Z"
@@ -129,7 +131,7 @@
                 <a href="#" class="visit">Visit</a>
             </div>
 
-            <div class="Sketch">
+            <!-- <div class="Sketch">
                 <img src="/pics/Rectangle 5.png">
                 <svg width="64" height="57" viewBox="0 0 64 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_10_1598)">
@@ -312,10 +314,11 @@
                 <a href="#" class="visit">Visit</a>
             </div>
 
-            <div class="more">Load more</div>
+            <div class="more">Load more</div> -->
+
         </div>
     </main>
-    <footer>
+    <!-- <footer>
         <img src="/pics/Rectangle 308.png">
         <h2>Trusted more than 150+ brand</h2>
         <svg width="193" height="42" viewBox="0 0 193 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -402,7 +405,7 @@
             </defs>
         </svg>
 
-    </footer>
+    </footer> --> -->
 </body>
 
 </html>
